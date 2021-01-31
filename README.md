@@ -1,63 +1,69 @@
-## Welcome to WallStreetBets Coin (WSB)
+# WallStreetBets Coin (WSB)
 
-Here is a community built cryptocurrency coin made for WallStreetBets fans. Following are the details:
+Here is a community built cryptocurrency coin made for WallStreetBets community.
+
+## Technical Details
 
 - Built using Komodo's Antara Smartchain technology
 - Independent blockchain
-- Block time aprox 60 seconds.
-- Blocks are mined with Proof of Work (Equihash)
-- Block reward is 1 WSB
-- Premine supply of 90,000,000,000 WSB
+- Block time : ~ 60 seconds
+- Block generation: Proof of Work
+- Mining algorithm: Equihash
+- Block reward - 1 WSB
+- Premine: 90,000,000,000 WSB
 - Premine airdropped to KMD holders 100:1
 
-# Features
+
+## Features
 
 Coming from Komodo Platform, it is capable of doing all DeFi things one can possible do using Antara Smartchain's CryptoConditions technology.
-- **Tokens Exchange**, which can be used to create and trade NFTs. [Link](https://developers.komodoplatform.com/basic-docs/antara/antara-api/assets.html)
+- **Tokens Exchange**, which can be used to create and trade tokens and NFTs. [Link](https://developers.komodoplatform.com/basic-docs/antara/antara-api/assets.html)
 - **Dilithium** type transactions can make Quantum Resistant transactions [Link](https://developers.komodoplatform.com/basic-docs/antara/antara-api/dilithium.html)
 - **Decentralised Faucet**, to give away free WSB coins to people who wants to try things out on this chain. [Link](https://developers.komodoplatform.com/basic-docs/antara/antara-api/faucet.html)
 - **Heir**, can help manage funds in a way that it can be passed on to heir for inheridence. [Link](https://developers.komodoplatform.com/basic-docs/antara/antara-api/heir.html)
 - **Oracles**, to link real world data to blockchain based decentralised applications. Oracles are what powers DeFi. It is very powerful technology. And it works already available to Antara Smartchains. [Link](https://developers.komodoplatform.com/basic-docs/antara/antara-api/oracles.html)
 - **Pegs**, to make decentralised stablecoins or making pegged cryptocurrencies to other kind of assets in financial world. [Link](https://developers.komodoplatform.com/basic-docs/antara/antara-api/pegs.html)
 
-# Resources
 
-## Explorer
+## Resources
+
+### Explorer
 [http://wsb.explorer.dexstats.info/](http://wsb.explorer.dexstats.info/)
 
-## Wallets
+### Wallets
 [AtomicDEX-Desktop](https://github.com/KomodoPlatform/atomicDEX-Desktop/releases)
 
-[Command Line](#Getting-Started-for-command-line)
+[Command Line](#Using-Command-Line)
 
-## Connect with WSB coin community
-[#wsb channel](https://github.com/KomodoPlatform/atomicDEX-Desktop/releases) on Komodo Discord
+### WSB Coin community
+[#wsb channel on Komodo Discord](https://discord.gg/JcNqhUxAxh)
 
-## Mining Pools
+### Mining Pools
 [https://mining.spaceworks.co](https://mining.spaceworks.co)
 
-## Trading Exchanges
+### Trading Exchanges
 [AtomicDEX-Desktop](https://github.com/KomodoPlatform/atomicDEX-Desktop/releases)
 
-# Getting Started for command line
+
+## Using Command Line
 Download pre-compiled komodo binaries for your operating system from [here](https://github.com/KomodoPlatform/komodo/releases/tag/0.6.1).
 Extract the binaries, and execute "fetch-params" script from command line terminal to fetch the required chain params.
 
-## Connect with WSB Blockchain
-Use the following command to connect to WSB chain's network:
+### Launch WSB Blockchain
+Use the following command to launch WSB coin's blockchain daemon:
 
 ```bash
 ./komodod -ac_name=WSB -ac_supply=90000000000 -ac_cc=3 -ac_reward=100000000 -addnode=94.130.38.173 -addnode=178.63.47.105
 ```
 
-## Mine WSB blockchain
+### Mine WSB blockchain
 Use "-gen" and "-genproclimit" to enable mining. Value for "-genproclimit" is the value of how many CPU threads you have on your system.
 
 ```bash
 ./komodod -ac_name=WSB -ac_supply=90000000000 -ac_cc=3 -ac_reward=100000000 -addnode=94.130.38.173 -addnode=178.63.47.105 -gen -genproclimit=4
 ```
 
-## Wallet comands
+### Wallet comands
 
 ```bash
 # Get wallet and blockchain info

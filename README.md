@@ -1,26 +1,27 @@
 # WallStreetBets Coin (WSB)
 
-Here is a community built cryptocurrency coin made for WallStreetBets community.
+A cryptocurrency coin made for the WallStreetBets community.
 
 ![WallStreetBets](/wsb.png)
 
 ## Technical Details
 
-- Built using Komodo's Antara Smartchain technology
+- Komodo's Antara Smartchain Technology
 - Independent blockchain
 - Block time : ~ 60 seconds
 - Block generation: Proof of Work
 - Mining algorithm: Equihash
 - Block reward - 1 WSB
 - Premine: 90,000,000,000 WSB
+- Privacy: zk-SNARKS
 
 
 ## Features
 
-Coming from Komodo Platform, it is capable of doing all DeFi things one can possible do using Antara Smartchain's CryptoConditions technology.
-- **Tokens Exchange**, which can be used to create and trade tokens and NFTs. [Link](https://developers.komodoplatform.com/basic-docs/antara/antara-api/assets.html)
-- **Dilithium** type transactions can make Quantum Resistant transactions [Link](https://developers.komodoplatform.com/basic-docs/antara/antara-api/dilithium.html)
-- **Decentralised Faucet**, to give away free WSB coins to people who wants to try things out on this chain. [Link](https://developers.komodoplatform.com/basic-docs/antara/antara-api/faucet.html)
+Built using Komodo Platform tech, WSB is capable of doing all DeFi things one can possible do using Antara Smartchain's CryptoConditions.
+- **Tokens Exchange**, can be used to create and trade tokens/NFTs. [Link](https://developers.komodoplatform.com/basic-docs/antara/antara-api/assets.html)
+- **Dilithium** type transactions can make Quantum Resistant transactions. [Link](https://developers.komodoplatform.com/basic-docs/antara/antara-api/dilithium.html)
+- **Decentralized Faucet**, to give away free WSB coins to people who wants to try things out on the chain. [Link](https://developers.komodoplatform.com/basic-docs/antara/antara-api/faucet.html)
 - **Heir**, can help manage funds in a way that it can be passed on to heir for inheridence. [Link](https://developers.komodoplatform.com/basic-docs/antara/antara-api/heir.html)
 - **Oracles**, to link real world data to blockchain based decentralised applications. Oracles are what powers DeFi. It is very powerful technology. And it works already available to Antara Smartchains. [Link](https://developers.komodoplatform.com/basic-docs/antara/antara-api/oracles.html)
 - **Pegs**, to make decentralised stablecoins or making pegged cryptocurrencies to other kind of assets in financial world. [Link](https://developers.komodoplatform.com/basic-docs/antara/antara-api/pegs.html)
@@ -37,6 +38,7 @@ Coming from Komodo Platform, it is capable of doing all DeFi things one can poss
 
 #### WSB Coin Community
 - [#wsb channel on Komodo Discord](https://discord.gg/JcNqhUxAxh)
+- [@CoinWSB on Twitter](https://twitter.com/CoinWsb)
 
 #### Mining Pools
 - [mining.spaceworks.co](https://mining.spaceworks.co)

@@ -20,26 +20,44 @@ Coming from Komodo Platform, it is capable of doing all DeFi things one can poss
 - **Oracles**, to link real world data to blockchain based decentralised applications. Oracles are what powers DeFi. It is very powerful technology. And it works already available to Antara Smartchains. [Link](https://developers.komodoplatform.com/basic-docs/antara/antara-api/oracles.html)
 - **Pegs**, to make decentralised stablecoins or making pegged cryptocurrencies to other kind of assets in financial world. [Link](https://developers.komodoplatform.com/basic-docs/antara/antara-api/pegs.html)
 
+# Resources
+
+## Explorer
+[http://wsb.explorer.dexstats.info/](http://wsb.explorer.dexstats.info/)
+
+## Wallets
+[AtomicDEX-Desktop](https://github.com/KomodoPlatform/atomicDEX-Desktop/releases)
+
+[Command Line](#Getting-Started-for-command-line)
+
+## Connect with WSB coin community
+[#wsb channel](https://github.com/KomodoPlatform/atomicDEX-Desktop/releases) on Komodo Discord
+
+## Mining Pools
+[https://mining.spaceworks.co](https://mining.spaceworks.co)
+
+## Trading Exchanges
+[AtomicDEX-Desktop](https://github.com/KomodoPlatform/atomicDEX-Desktop/releases)
 
 # Getting Started for command line
 Download pre-compiled komodo binaries for your operating system from [here](https://github.com/KomodoPlatform/komodo/releases/tag/0.6.1).
 Extract the binaries, and execute "fetch-params" script from command line terminal to fetch the required chain params.
 
-# Connect with WSB Blockchain
+## Connect with WSB Blockchain
 Use the following command to connect to WSB chain's network:
 
 ```bash
 ./komodod -ac_name=WSB -ac_supply=90000000000 -ac_cc=3 -ac_reward=100000000 -addnode=94.130.38.173 -addnode=178.63.47.105
 ```
 
-# Mine WSB blockchain
+## Mine WSB blockchain
 Use "-gen" and "-genproclimit" to enable mining. Value for "-genproclimit" is the value of how many CPU threads you have on your system.
 
 ```bash
 ./komodod -ac_name=WSB -ac_supply=90000000000 -ac_cc=3 -ac_reward=100000000 -addnode=94.130.38.173 -addnode=178.63.47.105 -gen -genproclimit=4
 ```
 
-# Wallet comands
+## Wallet comands
 
 ```bash
 # Get wallet and blockchain info
@@ -100,21 +118,3 @@ Use "-gen" and "-genproclimit" to enable mining. Value for "-genproclimit" is th
 # Example:
 komodo-cli -ac_name=WSB z_sendmany "FROM_Z_ADDRESS" '[{"address": "TO_Z_ADDRESS" ,"amount": 5.9999}]'
 ```
-
-## Help/Support Guides
-TODO
-
-## Explorer
-[http://wsb.explorer.dexstats.info/](http://wsb.explorer.dexstats.info/)
-
-## Wallets
-TODO
-
-## Connect with WSB community
-TODO
-
-## Mining Pools
-[https://mining.spaceworks.co](https://mining.spaceworks.co)
-
-## Trading Exchanges
-[AtomicDEX-Desktop](https://github.com/KomodoPlatform/atomicDEX-Desktop/releases)

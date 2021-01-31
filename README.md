@@ -2,6 +2,8 @@
 
 Here is a community built cryptocurrency coin made for WallStreetBets community.
 
+![WallStreetBets](/wsb.png)
+
 ## Technical Details
 
 - Built using Komodo's Antara Smartchain technology
@@ -12,10 +14,6 @@ Here is a community built cryptocurrency coin made for WallStreetBets community.
 - Block reward - 1 WSB
 - Premine: 90,000,000,000 WSB
 
-
-## Komodo Airdrop
-
-All Komodo holders were airdropped WSB 100:1 from the premine. If you have an address with KMD in it, you now own WSB in the same address but on the WallStreetBets blockchain.
 
 ## Features
 
@@ -31,20 +29,25 @@ Coming from Komodo Platform, it is capable of doing all DeFi things one can poss
 ## Resources
 
 #### Explorer
-- [http://wsb.explorer.dexstats.info/](http://wsb.explorer.dexstats.info/)
+- [wsb.explorer.dexstats.info](http://wsb.explorer.dexstats.info/)
 
 #### Wallets
 - [AtomicDEX-Desktop](https://github.com/KomodoPlatform/atomicDEX-Desktop/releases)
 - [Command Line](#Using-Command-Line)
 
-#### WSB Coin community
+#### WSB Coin Community
 - [#wsb channel on Komodo Discord](https://discord.gg/JcNqhUxAxh)
 
 #### Mining Pools
-- [https://mining.spaceworks.co](https://mining.spaceworks.co)
+- [mining.spaceworks.co](https://mining.spaceworks.co)
 
-#### Trading Exchanges
+#### Exchanges
 - [AtomicDEX-Desktop](https://github.com/KomodoPlatform/atomicDEX-Desktop/releases)
+
+
+## Komodo Airdrop
+
+All Komodo holders were airdropped WSB 100:1 from the premine. If you have an address with KMD in it, you now own WSB in the same address but on the WallStreetBets blockchain.
 
 
 ### Using Command Line

@@ -11,8 +11,11 @@ Here is a community built cryptocurrency coin made for WallStreetBets community.
 - Mining algorithm: Equihash
 - Block reward - 1 WSB
 - Premine: 90,000,000,000 WSB
-- Premine airdropped to KMD holders 100:1
 
+
+## Komodo Airdrop
+
+All Komodo holders were airdropped WSB 100:1 from the premine. If you have an address with KMD in it, you now own WSB in the same address but on the WallStreetBets blockchain.
 
 ## Features
 
@@ -27,43 +30,42 @@ Coming from Komodo Platform, it is capable of doing all DeFi things one can poss
 
 ## Resources
 
-### Explorer
-[http://wsb.explorer.dexstats.info/](http://wsb.explorer.dexstats.info/)
+#### Explorer
+- [http://wsb.explorer.dexstats.info/](http://wsb.explorer.dexstats.info/)
 
-### Wallets
-[AtomicDEX-Desktop](https://github.com/KomodoPlatform/atomicDEX-Desktop/releases)
+#### Wallets
+- [AtomicDEX-Desktop](https://github.com/KomodoPlatform/atomicDEX-Desktop/releases)
+- [Command Line](#Using-Command-Line)
 
-[Command Line](#Using-Command-Line)
+#### WSB Coin community
+- [#wsb channel on Komodo Discord](https://discord.gg/JcNqhUxAxh)
 
-### WSB Coin community
-[#wsb channel on Komodo Discord](https://discord.gg/JcNqhUxAxh)
+#### Mining Pools
+- [https://mining.spaceworks.co](https://mining.spaceworks.co)
 
-### Mining Pools
-[https://mining.spaceworks.co](https://mining.spaceworks.co)
-
-### Trading Exchanges
-[AtomicDEX-Desktop](https://github.com/KomodoPlatform/atomicDEX-Desktop/releases)
+#### Trading Exchanges
+- [AtomicDEX-Desktop](https://github.com/KomodoPlatform/atomicDEX-Desktop/releases)
 
 
-## Using Command Line
+### Using Command Line
 Download pre-compiled komodo binaries for your operating system from [here](https://github.com/KomodoPlatform/komodo/releases/tag/0.6.1).
 Extract the binaries, and execute "fetch-params" script from command line terminal to fetch the required chain params.
 
-### Launch WSB Blockchain
+#### Launch WSB Blockchain
 Use the following command to launch WSB coin's blockchain daemon:
 
 ```bash
 ./komodod -ac_name=WSB -ac_supply=90000000000 -ac_cc=3 -ac_reward=100000000 -addnode=94.130.38.173 -addnode=178.63.47.105
 ```
 
-### Mine WSB blockchain
+#### Mine WSB blockchain
 Use "-gen" and "-genproclimit" to enable mining. Value for "-genproclimit" is the value of how many CPU threads you have on your system.
 
 ```bash
 ./komodod -ac_name=WSB -ac_supply=90000000000 -ac_cc=3 -ac_reward=100000000 -addnode=94.130.38.173 -addnode=178.63.47.105 -gen -genproclimit=4
 ```
 
-### Wallet comands
+#### Wallet comands
 
 ```bash
 # Get wallet and blockchain info

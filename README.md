@@ -46,6 +46,10 @@ Built using Komodo Platform tech, WSB is capable of doing all DeFi things one ca
 #### Exchanges
 - [AtomicDEX-Desktop](https://github.com/KomodoPlatform/atomicDEX-Desktop/releases)
 
+#### Faucets
+- [AtomicExplorer](https://www.atomicexplorer.com/#/faucet/wsb)
+- [On-chain Faucet](https://developers.komodoplatform.com/basic-docs/antara/antara-api/faucet.html)
+
 
 ## Komodo Airdrop
 

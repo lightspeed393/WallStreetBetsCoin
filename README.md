@@ -42,6 +42,7 @@ Built using Komodo Platform tech, WSB is capable of doing all DeFi things one ca
 
 #### Mining Pools
 - [mining.spaceworks.co](https://mining.spaceworks.co)
+- [chickenpool.com](http://chickenpool.com)
 
 #### Exchanges
 - [AtomicDEX-Desktop](https://github.com/KomodoPlatform/atomicDEX-Desktop/releases)

@@ -1,7 +1,3 @@
-# WallStreetBets Coin (WSB)
-
-A cryptocurrency coin made for the WallStreetBets community.
-
 ![WallStreetBets](/wsb.png)
 
 ## Technical Details

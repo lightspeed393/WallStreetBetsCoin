@@ -19,14 +19,15 @@ Built using Komodo Platform tech, WSB is capable of doing all DeFi things one ca
 - **Dilithium** type transactions can make Quantum Resistant transactions. [Link](https://developers.komodoplatform.com/basic-docs/antara/antara-api/dilithium.html)
 - **Decentralized Faucet**, to give away free WSB coins to people who wants to try things out on the chain. [Link](https://developers.komodoplatform.com/basic-docs/antara/antara-api/faucet.html)
 - **Heir**, can help manage funds in a way that it can be passed on to heir for inheridence. [Link](https://developers.komodoplatform.com/basic-docs/antara/antara-api/heir.html)
-- **Oracles**, to link real world data to blockchain based decentralised applications. Oracles are what powers DeFi. It is very powerful technology. And it works already available to Antara Smartchains. [Link](https://developers.komodoplatform.com/basic-docs/antara/antara-api/oracles.html)
-- **Pegs**, to make decentralised stablecoins or making pegged cryptocurrencies to other kind of assets in financial world. [Link](https://developers.komodoplatform.com/basic-docs/antara/antara-api/pegs.html)
+- **Oracles**, to link real world data to blockchain based decentralized applications. Oracles are what powers DeFi. It is very powerful technology. And it works already available to Antara Smartchains. [Link](https://developers.komodoplatform.com/basic-docs/antara/antara-api/oracles.html)
+- **Pegs**, to make decentralized stablecoins or making pegged cryptocurrencies to other kind of assets in financial world. [Link](https://developers.komodoplatform.com/basic-docs/antara/antara-api/pegs.html)
 
 
 ## Resources
 
 #### Explorer
 - [wsb.explorer.dexstats.info](http://wsb.explorer.dexstats.info/)
+- [atomicexplorer.com](https://atomicexplorer.com)
 
 #### Wallets
 - [AtomicDEX-Desktop](https://github.com/KomodoPlatform/atomicDEX-Desktop/releases)

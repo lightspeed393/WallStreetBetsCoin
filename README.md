@@ -44,6 +44,7 @@ Built using Komodo Platform tech, WSB is capable of doing all DeFi things one ca
 
 #### Exchanges
 - [AtomicDEX-Desktop](https://github.com/KomodoPlatform/atomicDEX-Desktop/releases)
+- [CexZ.ca](https://www.cexz.ca/trading/wsbbtc)
 
 #### Faucets
 - [AtomicExplorer](https://www.atomicexplorer.com/#/faucet/wsb)

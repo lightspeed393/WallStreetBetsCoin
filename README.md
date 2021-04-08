@@ -93,6 +93,10 @@ Use "-gen" and "-genproclimit" to enable mining. Value for "-genproclimit" is th
 ./komodo-cli -ac_name=WSB getnewaddress
 
 
+# Send coins to an address
+./komodo-cli -ac_name=WSB sendtoaddress "to_taddress" "amount"
+
+
 # To backup the private key of a public address
 ./komodo-cli -ac_name=WSB dumpprivkey
 

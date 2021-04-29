@@ -1,4 +1,4 @@
-![WallStreetBets](/wsb.png)
+![WSBcoin](/wsb.png)
 
 ## Technical Details
 
@@ -31,11 +31,13 @@ Built using Komodo Platform tech, WSB is capable of doing all DeFi things one ca
 
 #### Wallets
 - [AtomicDEX-Desktop](https://github.com/KomodoPlatform/atomicDEX-Desktop/releases)
+- [KomodoOcean QT](https://github.com/DeckerSU/KomodoOcean/releases)
 - [Command Line](#Using-Command-Line)
 
 #### WSB Coin Community
 - [#wsb channel on Komodo Discord](https://discord.gg/JcNqhUxAxh)
 - [@CoinWSB on Twitter](https://twitter.com/CoinWsb)
+- [WSBcoin on Facebook](https://www.facebook.com/WSBcoin/)
 
 #### Mining Pools
 - [mining.spaceworks.co](https://mining.spaceworks.co)
@@ -50,6 +52,9 @@ Built using Komodo Platform tech, WSB is capable of doing all DeFi things one ca
 - [AtomicExplorer](https://www.atomicexplorer.com/#/faucet/wsb)
 - [On-chain Faucet](https://developers.komodoplatform.com/basic-docs/antara/antara-api/faucet.html)
 
+#### Stats
+- [Mining Pool Stats](https://miningpoolstats.stream/wallstreetbetscoin)
+
 
 ## Komodo Airdrop
 
@@ -60,18 +65,11 @@ All Komodo holders were airdropped WSB 100:1 from the premine. If you have an ad
 Download pre-compiled komodo binaries for your operating system from [here](https://github.com/KomodoPlatform/komodo/releases/tag/0.6.1).
 Extract the binaries, and execute "fetch-params" script from command line terminal to fetch the required chain params.
 
-#### Launch WSB Blockchain
-Use the following command to launch WSB coin's blockchain daemon:
+#### WSB Blockchain Params
+Use the following command to launch WSB coin's blockchain daemon with komodod or komodo-qt:
 
 ```bash
 ./komodod -ac_name=WSB -ac_supply=90000000000 -ac_cc=3 -ac_reward=100000000 -addnode=94.130.38.173 -addnode=178.63.47.105
-```
-
-#### Mine WSB blockchain
-Use "-gen" and "-genproclimit" to enable mining. Value for "-genproclimit" is the value of how many CPU threads you have on your system.
-
-```bash
-./komodod -ac_name=WSB -ac_supply=90000000000 -ac_cc=3 -ac_reward=100000000 -addnode=94.130.38.173 -addnode=178.63.47.105 -gen -genproclimit=4
 ```
 
 #### Wallet comands
@@ -113,14 +111,12 @@ Use "-gen" and "-genproclimit" to enable mining. Value for "-genproclimit" is th
 ./komodo-cli -ac_name=WSB z_exportkey "zaddr"
 
 
-# To mine with CPU and enable staking
-./komodo-cli -ac_name=WSB setgenerate true 0
+# To enable CPU mining
+./komodo-cli -ac_name=WSB setgenerate true 1
 
-# To only stake and not CPU mining
-./komodo-cli -ac_name=WSB setgenerate false 0
 
-# To disable staking and disable CPU mining
-./komodo-cli -ac_name=WSB setgenerate false 1
+# To disable CPU mining
+./komodo-cli -ac_name=WSB setgenerate false
 
 
 # To send mined coins to a z address

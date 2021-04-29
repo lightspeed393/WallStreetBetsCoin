@@ -6,3 +6,6 @@ keywords: "WSB, wsb coin, wallstreetbets coin, wsb crypto, wsbcoin, wallstreetbe
 url: "https://wsbcoin.cash"
 plugins:
   - jekyll-sitemap
+
+github:
+  is_project_page: false
